@@ -79,8 +79,8 @@ export default function Setting({ navigation }) {
     );
 
     function validate() {
-        var timeDur = parseInt(timeDuration);
-        var ambTime = parseInt(ambTimeDuration)
+        var timeDur = parseInt(timeDurationInput);
+        var ambTime = parseInt(ambTimeDurationInput)
 
         var isError = false;
         var msg = ''
